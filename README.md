@@ -1,6 +1,6 @@
 # Star Wars Shooter
 
-Star Wars Shooter mixes the fluid physics and visuals of asteroids with relatable audio/visuals from the Star Wars universe.
+Star Wars Shooter mixes the fluid physics and visuals of asteroids with the well-known audio/visuals from the Star Wars universe. The goal of the project is to provide a smooth and immersive star wars experience over the browser using just vanilla javascript and canvas.
 
 ## MVP Features:
 
@@ -34,31 +34,31 @@ The enemy players will start moving toward the player while shooting bullets. It
 
 ### Over The Weekend:
 - [x] Finish proposal and learning about technologies used
-- [x] Learn how to implement elegant proper physics in the game
+- [x] Begin learning how to implement elegant proper physics in the game
 
 ### Day 1:
-- [] Setup webpack, and all necessary node_modules
-- [] Create general structure for files
-- [] Obtain sprite images and audio files to be used in the game
-- [] Implement splash page that transitions into main game
-- [] Get sprite images to show and change
+- [ ] Setup webpack, and all necessary node_modules
+- [ ] Create general structure for files
+- [ ] Obtain sprite images and audio files to be used in the game
+- [ ] Implement splash page that transitions into main game
+- [ ] Get sprite images to show and change
 
 ### Day 2:
-- [] Implement general styling on background, text and images
-- [] Get moving_objects.js in order, and be able to extend that to other objects
-- [] Be able to move ship and have enemies move as well
-- [] Have audio play on load. Also have audio toggle button in corner.
+- [ ] Implement general styling on background, text and images
+- [ ] Get moving_objects.js in order, and be able to extend that to other objects
+- [ ] Be able to move ship and have enemies move as well
+- [ ] Have audio play on load. Also have audio toggle button in corner.
 
 ### Day 3:
-- [] Implement physics into ship to make it feel smooth (important)
-- [] Implement collisions with enemies, ship, and laser beams.
-- [] Implement scoring system.
+- [ ] Implement physics into ship to make it feel smooth (important)
+- [ ] Implement collisions with enemies, ship, and laser beams.
+- [ ] Implement scoring system.
 
 ### Day 4:
-- [] Further iterate upon physics incase it isn't finished (important)
-- [] Tie up any other loose ends.
-- [] Test game for user experience, and adjust accordingly.
-- [] Completely style canvas.
+- [ ] Further iterate upon physics incase it isn't finished (important)
+- [ ] Tie up any other loose ends.
+- [ ] Test game for user experience, and adjust accordingly.
+- [ ] Completely style canvas.
 
 ### Bonus Features:
 
