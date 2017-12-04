@@ -43,6 +43,7 @@ body {
 
 /*About Me*/
 #about-me {
+  font-family: Georgia;
   position: absolute;
   bottom: 10px;
   color: white;
@@ -53,4 +54,9 @@ body {
   list-style: none;
   display: flex;
   justify-content: space-between;
+}
+
+#about-me a {
+  color: white;
+  text-decoration: none;
 }
