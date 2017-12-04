@@ -1,4 +1,38 @@
+/*Main*/
 body {
   background-image: url("../images/stars.png");
-  background-size: 110%;
+}
+
+#canvas {
+
+}
+
+
+/*Splash Page*/
+#title {
+  color: white;
+  text-align: center;
+  animation-duration: 3.2s;
+  animation-name: fade;
+  font-size: 60px;
+}
+
+#press-enter {
+  color: white;
+  text-align: center;
+  animation-duration: 3.2s;
+  animation-name: fade;
+  font-size: 25px;
+}
+
+@keyframes fade {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+
+/*About Me*/
+.about-me {
+  display: none;
 }
