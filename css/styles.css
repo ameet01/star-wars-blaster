@@ -33,6 +33,15 @@ body {
 
 
 /*About Me*/
-.about-me {
-  display: none;
+#about-me {
+  position: absolute;
+  bottom: 10px;
+  color: white;
+  width: 20%;
+}
+
+#about-me ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
