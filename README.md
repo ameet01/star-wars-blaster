@@ -1,6 +1,6 @@
 # Star Wars Shooter
 
-Star Wars Shooter mixes the fluid physics and visuals of asteroids with the well-known audio/visuals from the Star Wars universe. The goal of the project is to provide a smooth and immersive star wars experience over the browser using just vanilla javascript and canvas.
+Star Wars Shooter mixes the physics and visuals of asteroids with the well-known audio/visuals from the Star Wars universe. The goal of the project is to provide a smooth and immersive star wars experience over the browser using just vanilla javascript and canvas.
 
 ## MVP Features:
 
