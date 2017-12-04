@@ -12,7 +12,7 @@ body {
   z-index: 100;
 }
 
-.outside {
+#outside {
   position: absolute;
   top: 0;
   bottom: 0;
