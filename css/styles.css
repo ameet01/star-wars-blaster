@@ -1,10 +1,18 @@
 /*Main*/
-body {
+html {
   background-image: url("../images/stars.png");
+  margin: 0;
   overflow: hidden;
+}
+body {
+  margin: 0;
 }
 
 #canvas {
+  z-index: 100;
+}
+
+.outside {
   position: absolute;
   top: 0;
   bottom: 0;
