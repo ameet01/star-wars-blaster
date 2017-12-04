@@ -20,6 +20,7 @@ The enemy players will start moving toward the player while shooting bullets. It
 
 * SplashPage
 <img src='https://github.com/ameet01/star-wars-shooter/blob/master/docs/wireframe_splash.png' width='600px' />
+
 * MainPage
 <img src='https://github.com/ameet01/star-wars-shooter/blob/master/docs/wireframe_main.png' width='600px' />
 

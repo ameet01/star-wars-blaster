@@ -1,0 +1,27 @@
+{
+  "name": "starwarsshooter",
+  "version": "1.0.0",
+  "description": "Star Wars Shooter mixes the physics and visuals of asteroids with the well-known audio/visuals from the Star Wars universe. The goal of the project is to provide a smooth and immersive star wars experience over the browser using just vanilla javascript and canvas.",
+  "main": "webpack.config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "webpack": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameet01/star-wars-shooter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ameet01/star-wars-shooter/issues"
+  },
+  "homepage": "https://github.com/ameet01/star-wars-shooter#readme"
+}
