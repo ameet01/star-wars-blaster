@@ -22,19 +22,16 @@ body {
 
 /*Splash Page*/
 #title {
-  color: white;
-  text-align: center;
-  animation-duration: 3.2s;
-  animation-name: fade;
-  font-size: 60px;
+
 }
 
 #press-enter {
-  color: white;
-  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 300px;
+  width: 50%;
   animation-duration: 3.2s;
   animation-name: fade;
-  font-size: 25px;
 }
 
 @keyframes fade {
