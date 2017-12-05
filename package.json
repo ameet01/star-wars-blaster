@@ -2,11 +2,16 @@
   "name": "starwarsshooter",
   "version": "1.0.0",
   "description": "Star Wars Shooter mixes the physics and visuals of asteroids with the well-known audio/visuals from the Star Wars universe. The goal of the project is to provide a smooth and immersive star wars experience over the browser using just vanilla javascript and canvas.",
-  "main": "webpack.config.js",
+  "main": "lib/game/game.js",
   "directories": {
     "doc": "docs"
   },
   "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
     "webpack": "^3.9.1"
   },
   "devDependencies": {},
