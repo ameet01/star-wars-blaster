@@ -1,6 +1,6 @@
 # Star Wars Shooter
 
-Star Wars Shooter mixes the physics and visuals of asteroids with the well-known audio/visuals from the Star Wars universe. The goal of the project is to provide a smooth and immersive star wars experience over the browser using just vanilla javascript and canvas.
+Star Wars Shooter mixes the physics and visuals of space invaders with the well-known audio/visuals from the Star Wars universe. The goal of the project is to provide a smooth and immersive star wars experience over the browser using just vanilla javascript and canvas.
 
 ## MVP Features:
 
@@ -22,7 +22,7 @@ The enemy players will start moving toward the player while shooting bullets. It
 <img src='https://github.com/ameet01/star-wars-shooter/blob/master/docs/wireframe_splash.png' width='600px' />
 
 * MainPage
-<img src='https://github.com/ameet01/star-wars-shooter/blob/master/docs/wireframe_main.png' width='600px' />
+<img src='https://github.com/ameet01/star-wars-shooter/blob/master/docs/wireframe_main2.png' width='600px' />
 
 ## Technologies:
 
@@ -38,11 +38,11 @@ The enemy players will start moving toward the player while shooting bullets. It
 - [x] Begin learning how to implement elegant proper physics in the game
 
 ### Day 1:
-- [ ] Setup webpack, and all necessary node_modules
-- [ ] Create general structure for files
+- [x] Setup webpack, and all necessary node_modules
+- [x] Create general structure for files
 - [ ] Obtain sprite images and audio files to be used in the game
-- [ ] Implement splash page that transitions into main game
-- [ ] Get sprite images to show and change
+- [x] Implement splash page that transitions into main game
+- [x] Get sprite images to show and change
 
 ### Day 2:
 - [ ] Implement general styling on background, text and images
