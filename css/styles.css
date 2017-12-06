@@ -122,6 +122,7 @@ body {
 #paused {
   position: absolute;
   top: 40%;
-  left: 39%;
+  left: 41%;
   display: none;
+  width: 325px;
 }
