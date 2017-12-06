@@ -3,11 +3,11 @@ html {
   background-image: url("../images/background.png");
   margin: 0;
   overflow: hidden;
-  -webkit-animation:100s scroll infinite linear;
-  -moz-animation:100s scroll infinite linear;
-  -o-animation:100s scroll infinite linear;
-  -ms-animation:100s scroll infinite linear;
-  animation:100s scroll infinite linear;
+  -webkit-animation:75s scroll infinite linear;
+  -moz-animation:75s scroll infinite linear;
+  -o-animation:75s scroll infinite linear;
+  -ms-animation:75s scroll infinite linear;
+  animation:75s scroll infinite linear;
 }
 
 @-webkit-keyframes scroll{
@@ -102,10 +102,8 @@ body {
 
 #score {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 200px;
-  height: 100px;
+  top: 20px;
+  right: 40px;
   color: white;
   font-size: 25px;
   font-family: Arial;
@@ -119,4 +117,11 @@ body {
   width: 220px;
   animation-duration: 3.2s;
   animation-name: fade;
+}
+
+#paused {
+  position: absolute;
+  top: 40%;
+  left: 39%;
+  display: none;
 }
