@@ -1,6 +1,6 @@
 /*Main*/
 html {
-  background-image: url("../images/stars.png");
+  background-image: url("../images/background.png");
   margin: 0;
   overflow: hidden;
   -webkit-animation:100s scroll infinite linear;
@@ -84,16 +84,39 @@ body {
   position: absolute;
   bottom: 10px;
   color: white;
-  width: 20%;
+  width: 300px;
 }
 
 #about-me ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
+  animation-duration: 3.2s;
+  animation-name: fade;
 }
 
 #about-me a {
   color: white;
   text-decoration: none;
+}
+
+#score {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 200px;
+  height: 100px;
+  color: white;
+  font-size: 25px;
+  font-family: Arial;
+  z-index: 1000000;
+}
+
+#myname {
+  position: absolute;
+  bottom: 45px;
+  left: 35px;
+  width: 220px;
+  animation-duration: 3.2s;
+  animation-name: fade;
 }
