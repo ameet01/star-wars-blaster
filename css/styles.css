@@ -102,13 +102,17 @@ body {
   text-decoration: none;
 }
 
+#about-me a:hover {
+  color: red;
+}
+
 #score {
   position: absolute;
   top: 20px;
   right: 40px;
   color: white;
   font-size: 25px;
-  font-family: Arial;
+  font-family: Montserrat;
   z-index: 1000000;
 }
 
