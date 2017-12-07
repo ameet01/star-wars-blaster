@@ -195,16 +195,16 @@ body {
 
 .purple #lightmain {
   height:350px;
-  background: rgb(173,18,131);
-  background: -moz-linear-gradient(left, rgba(173,18,131,1) 0%, rgba(255,255,255,1) 54%, rgba(173,18,131,1) 100%);
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(173,18,131,1)), color-stop(54%,rgba(255,255,255,1)), color-stop(100%,rgba(173,18,131,1)));
-  background: -webkit-linear-gradient(left, rgba(173,18,131,1) 0%,rgba(255,255,255,1) 54%,rgba(173,18,131,1) 100%);
-  background: -o-linear-gradient(left, rgba(173,18,131,1) 0%,rgba(255,255,255,1) 54%,rgba(173,18,131,1) 100%);
-  background: -ms-linear-gradient(left, rgba(173,18,131,1) 0%,rgba(255,255,255,1) 54%,rgba(173,18,131,1) 100%);
-  background: linear-gradient(to right, rgba(173,18,131,1) 0%,rgba(255,255,255,1) 54%,rgba(173,18,131,1) 100%);
-  -webkit-box-shadow: 0 1px 24px rgba(255, 0, 0, .9);
-  -moz-box-shadow: 0 1px 24px rgba(255, 0, 0, .9);
-  box-shadow: 0 1px 24px rgba(255, 0, 0, .9);
+  background: rgb(26, 255, 26);
+  background: -moz-linear-gradient(left, rgb(26, 255, 26) 0%, rgba(255,255,255,1) 54%, rgb(26, 255, 26) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgb(26, 255, 26)), color-stop(54%,rgba(255,255,255,1)), color-stop(100%,rgb(26, 255, 26)));
+  background: -webkit-linear-gradient(left, rgb(26, 255, 26) 0%,rgba(255,255,255,1) 54%,rgb(26, 255, 26) 100%);
+  background: -o-linear-gradient(left, rgb(26, 255, 26) 0%,rgba(255,255,255,1) 54%,rgb(26, 255, 26) 100%);
+  background: -ms-linear-gradient(left, rgb(26, 255, 26) 0%,rgba(255,255,255,1) 54%,rgb(26, 255, 26) 100%);
+  background: linear-gradient(to right, rgb(26, 255, 26) 0%,rgba(255,255,255,1) 54%,rgb(26, 255, 26) 100%);
+  -webkit-box-shadow: 0 1px 24px rgb(0, 204, 0);
+  -moz-box-shadow: 0 1px 24px rgb(0, 204, 0);
+  box-shadow: 0 1px 24px rgb(0, 204, 0);
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
