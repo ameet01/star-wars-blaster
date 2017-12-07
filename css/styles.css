@@ -65,7 +65,7 @@ body {
 #press-enter {
   display: block;
   margin: 0 auto;
-  margin-top: 300px;
+  margin-top: 260px;
   width: 50%;
   animation-duration: 3.2s;
   animation-name: fade;
@@ -170,17 +170,43 @@ body {
 #ship-select {
   position: absolute;
   top: 45%;
-  left: 32%;
+  left: 25%;
   font-family: Montserrat;
   display: flex;
   font-size: 30px;
   color: white;
   justify-content: space-around;
-  width: 35%;
+  width: 50%;
+  animation-duration: 4s;
+  animation-name: fade;
+}
+
+#ship-select h1 {
+  text-align: center;
 }
 
 .active {
   color: red;
+}
+
+.xwing-select img {
+  width: 92%;
+}
+
+.xwing-select h1 {
+  margin-right: 9%;
+}
+
+.falcon-select img {
+  width: 100%;
+}
+
+.xwing-select {
+  width: 50%;
+}
+
+.falcon-select {
+  width: 50%;
 }
 
 
