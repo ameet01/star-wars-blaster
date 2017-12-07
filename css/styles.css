@@ -167,6 +167,21 @@ body {
   margin-top: 30px;
 }
 
+#ship-select {
+  position: absolute;
+  top: 45%;
+  left: 32%;
+  font-family: Montserrat;
+  display: flex;
+  font-size: 30px;
+  color: white;
+  justify-content: space-around;
+  width: 35%;
+}
+
+.active {
+  color: red;
+}
 
 
 

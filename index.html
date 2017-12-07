@@ -1,64 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:600,700" rel="stylesheet">
-    <script type="text/javascript" src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://use.fontawesome.com/d8e7c1eb42.js"></script>
-    <title>Star Wars Shooter</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:600,700" rel="stylesheet">
+  <script type="text/javascript" src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://use.fontawesome.com/d8e7c1eb42.js"></script>
+  <title>Star Wars Shooter</title>
+</head>
 
-  <body onload="">
-    <canvas id="canvas"></canvas>
+<body onload="">
+  <canvas id="canvas"></canvas>
 
-    <section id='outside'>
-      <section id='splash'>
-        <!-- <h2 id='title'>Star Wars Shooter</h2> -->
-        <img id='press-enter' src='./images/press-enter-to-start.png' />
-      </section>
-
-      <img src='./images/myname.png' id='myname'></img>
-      <section id='about-me'>
-        <ul>
-          <li><a target="_blank" href='http://www.github.com/ameet01'>GitHub</a></li>
-          <li><a target="_blank" href='http://www.linkedin.com/in/ameetvadhia'>LinkedIn</a></li>
-          <li><a target="_blank" href='http://www.ameet.io'>Portfolio</a></li>
-        </ul>
-      </section>
+  <section id='outside'>
+    <section id='splash'>
+      <!-- <h2 id='title'>Star Wars Shooter</h2> -->
+      <img id='press-enter' src='./images/press-enter-to-start.png' />
+      <div id='ship-select'>
+        <h1 class='xwing-select active'>X-Wing</h1>
+        <h1 class='falcon-select'>Millennium Falcon</h1>
+      </div>
     </section>
-    <i class="fa fa-music" id='audio-button'></i>
-    <img src='./images/pause.png' id='paused'></img>
-    <div id='score'></div>
-    <div id='instructions'>
+
+    <img src='./images/myname.png' id='myname'></img>
+    <section id='about-me'>
       <ul>
-        <li>Hold Space: Shoot</li>
-        <li>Arrow Keys: Move</li>
-        <li>Esc: Pause</li>
+        <li><a target="_blank" href='http://www.github.com/ameet01'>GitHub</a></li>
+        <li><a target="_blank" href='http://www.linkedin.com/in/ameetvadhia'>LinkedIn</a></li>
+        <li><a target="_blank" href='http://www.ameet.io'>Portfolio</a></li>
       </ul>
+    </section>
+  </section>
+  <i class="fa fa-music" id='audio-button'></i>
+  <img src='./images/pause.png' id='paused'></img>
+  <div id='score'></div>
+  <div id='instructions'>
+    <ul>
+      <li>Hold Space: Shoot</li>
+      <li>Arrow Keys: Move</li>
+      <li>Esc: Pause</li>
+    </ul>
+  </div>
+
+
+
+  <div id="lightsaber" class="purple">
+    <div id="handle">
+      <div id="handle-top"></div>
+      <div id="handle-button"><a href="#" class="show_hide"></a></div>
+      <div id="handle-middle"></div>
+      <div id="handle-bottom"></div>
     </div>
+    <div class="slidingDiv">
+      <div id="light">
+        <div id="lightcap"></div>
+        <div id="lightmain"></div>
+      </div>
+    </div>
+  </div>
 
-
-
-    <div id="lightsaber" class="purple">
-<div id="handle">
-<div id="handle-top"></div>
-<div id="handle-button"><a href="#" class="show_hide"></a></div>
-<div id="handle-middle"></div>
-<div id="handle-bottom"></div>
-</div>
-<div class="slidingDiv">
-<div id="light">
-<div id="lightcap"></div>
-<div id="lightmain"></div>
-</div>
-</div>
-</div>
-    <script type="application/javascript" charset="utf-8" src="./lib/bundle.js"></script>
-  </body>
+  <script type="application/javascript" charset="utf-8" src="./lib/bundle.js"></script>
+</body>
 
 </html>
