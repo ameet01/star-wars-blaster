@@ -181,11 +181,10 @@ body {
 
 #lightsaber {
   position: absolute;
-  z-index: 1000000000;
   bottom: 120px;
   left: 25px;
-  width:50px;
-  height:350px;
+  width: 50px;
+  height: 350px;
   -moz-transform:rotate(180deg);
   -webkit-transform:rotate(180deg);
   -o-transform:rotate(180deg);
@@ -209,8 +208,8 @@ body {
   -moz-border-radius: 20px;
   border-radius: 20px;
   -webkit-filter: blur(4px) saturate(1.5);
-  -webkit-animation: lighton 1s 1 ease-in-out;
-  animation: lighton 1s 1 ease-in-out;
+  -webkit-animation: lighton 1.5s 1 ease-in-out;
+  animation: lighton 1.5s 1 ease-in-out;
 }
 
 @-webkit-keyframes lighton
