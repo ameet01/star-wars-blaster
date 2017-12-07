@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600,700" rel="stylesheet">
     <script type="text/javascript" src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/d8e7c1eb42.js"></script>
     <title>Star Wars Shooter</title>
   </head>
 
@@ -23,14 +25,22 @@
       <img src='./images/myname.png' id='myname'></img>
       <section id='about-me'>
         <ul>
-          <li><a href='http://www.github.com/ameet01'>GitHub</a></li>
-          <li><a href='http://www.linkedin.com/in/ameetvadhia'>LinkedIn</a></li>
-          <li><a href='http://www.ameet.io'>Portfolio</a></li>
+          <li><a target="_blank" href='http://www.github.com/ameet01'>GitHub</a></li>
+          <li><a target="_blank" href='http://www.linkedin.com/in/ameetvadhia'>LinkedIn</a></li>
+          <li><a target="_blank" href='http://www.ameet.io'>Portfolio</a></li>
         </ul>
       </section>
     </section>
+    <i class="fa fa-music" id='audio-button'></i>
     <img src='./images/pause.png' id='paused'></img>
     <div id='score'></div>
+    <div id='instructions'>
+      <ul>
+        <li>Spacebar: Shoot</li>
+        <li>Arrow Keys: Move</li>
+        <li>Pause: Esc</li>
+      </ul>
+    </div>
     <script type="application/javascript" charset="utf-8" src="./lib/bundle.js"></script>
   </body>
 

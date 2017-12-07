@@ -80,7 +80,8 @@ body {
 
 /*About Me*/
 #about-me {
-  font-family: Georgia;
+  font-family: Montserrat;
+  font-weight: 600;
   position: absolute;
   bottom: 10px;
   color: white;
@@ -93,6 +94,7 @@ body {
   justify-content: space-between;
   animation-duration: 3.2s;
   animation-name: fade;
+  margin-left: -23px;
 }
 
 #about-me a {
@@ -113,7 +115,7 @@ body {
 #myname {
   position: absolute;
   bottom: 45px;
-  left: 35px;
+  left: 10px;
   width: 220px;
   animation-duration: 3.2s;
   animation-name: fade;
@@ -125,4 +127,38 @@ body {
   left: 41%;
   display: none;
   width: 325px;
+}
+
+#audio-button {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 40px;
+  display: block;
+  color: white;
+  cursor: pointer;
+  animation-duration: 3.2s;
+  animation-name: fade;
+}
+
+#instructions {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 30px;
+  bottom: 10px;
+  color: white;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 25px;
+  animation-duration: 3.2s;
+  animation-name: fade;
+}
+
+#instructions ul {
+  list-style: none;
+}
+
+#instructions ul li {
+  margin-top: 30px;
 }
