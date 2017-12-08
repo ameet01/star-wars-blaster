@@ -76,6 +76,10 @@ body {
   to {opacity: 1;}
 }
 
+#splash {
+  color: white;
+}
+
 
 
 /*About Me*/
@@ -208,9 +212,6 @@ body {
 .falcon-select {
   width: 50%;
 }
-
-
-
 
 
 .slidingDiv {
