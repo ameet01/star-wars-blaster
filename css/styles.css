@@ -147,6 +147,7 @@ body {
   cursor: pointer;
   animation-duration: 3.2s;
   animation-name: fade;
+  z-index: 100000000000;
 }
 
 #instructions {
