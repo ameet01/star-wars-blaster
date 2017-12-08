@@ -1,7 +1,5 @@
 # Star Wars Shooter
 
-<img src='https://github.com/ameet01/star-wars-shooter/blob/master/images/maintitle.png' width='600px' />
-
 Star Wars Shooter mixes the physics and visuals of space invaders with the well-known audio/visuals from the Star Wars universe. The goal of the project is to provide a smooth and immersive star wars experience over the browser using just vanilla javascript and canvas.
 
 ## MVP Features:
@@ -12,11 +10,26 @@ Star Wars Shooter mixes the physics and visuals of space invaders with the well-
 * Stars Wars feel to it(Sound effects from the movies, star wars font, space background) - Needs a sense of immersion.
 * Scoring system for enemy kills.
 
+## Wireframes
+
+This application will be near full-screen, and consist of a splash page with the title and "Please press enter to begin" text. Hopefully in actual stars wars font. The background will be filled with stars/planets.
+
+The game will then start with the player's ship in the middle, and a couple enemies spawned on the outside.
+
+The enemy players will start moving toward the player while shooting bullets. It's up to the player to maneuver around and vanquish as many enemies as he can before being defeated.
+
+* SplashPage
+<img src='https://github.com/ameet01/star-wars-shooter/blob/master/docs/wireframe_splash.png' width='600px' />
+
+* MainPage
+<img src='https://github.com/ameet01/star-wars-shooter/blob/master/docs/wireframe_main2.png' width='600px' />
+
 ## Technologies:
 
 * Vanilla Javascript for game logic/structure.
 * HTML5 Canvas for DOM Manipulation and rendering.
-* Webpack
+* Webpack to bundle all scripts.
+* Main Scripts: moving_objects.js, shooter.js, game.js
 
 ## Implementation Timeline:
 
