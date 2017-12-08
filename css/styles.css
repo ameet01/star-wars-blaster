@@ -7,7 +7,7 @@ html {
   -moz-animation:75s scroll infinite linear;
   -o-animation:75s scroll infinite linear;
   -ms-animation:75s scroll infinite linear;
-  animation:75s scroll infinite linear;
+  animation:75s scroll infinite linear; 
 }
 
 @-webkit-keyframes scroll{
