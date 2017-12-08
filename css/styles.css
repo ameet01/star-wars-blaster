@@ -65,7 +65,7 @@ body {
 #press-enter {
   display: block;
   margin: 0 auto;
-  margin-top: 260px;
+  margin-top: 14%;
   width: 50%;
   animation-duration: 3.2s;
   animation-name: fade;
