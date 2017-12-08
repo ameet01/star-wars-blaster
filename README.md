@@ -16,13 +16,13 @@ Star Wars Shooter mixes the physics and visuals of space invaders with the well-
 
 Lightsaber element built with CSS is correlated with the ship's health and lowers when the ship is hit!
 
-<img src='https://github.com/ameet01/star-wars-shooter/blob/master/images/lightsaberhealthbar.gif' width='400px'/>
+<img src='https://github.com/ameet01/star-wars-shooter/blob/master/docs/lightsaberhealthbar.gif' width='400px'/>
 
 # Spiral Shot
 
 Tie Fighters can shoot in an intricate spiral motion to incentivize more maneuvers from the player
 
-<img src='https://github.com/ameet01/star-wars-shooter/blob/master/docs/spiralshot.gif' width='600px'/>
+<img src='https://github.com/ameet01/star-wars-shooter/blob/master/docs/spiral.gif' width='600px'/>
 
 ## Instructions
 
