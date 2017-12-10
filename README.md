@@ -29,7 +29,7 @@ this.ticker.addEventListener('tick', () => {
 }
 ```
 
--My tick function will then apply my game logic and constantly render all my essential objects, such as enemy ships, enemy bullets, healthbars, and scores.
+-My tick function will then apply my core game logic and constantly render all my essential objects, such as enemy ships, enemy bullets, healthbars, and scores.
 ```javascript
 tick() {
   this.ship.shipEvents();
@@ -50,7 +50,7 @@ tick() {
 
 ### Light Saber Health Bar
 
-Lightsaber element built with CSS is correlated with the ship's health and lowers when the ship is hit!
+Lightsaber element built with pure CSS3/HTML5 is correlated with the ship's health and lowers when the ship is hit!
 
 <img src='https://github.com/ameet01/star-wars-shooter/blob/master/docs/lightsaberhealthbar.gif' width='400px'/>
 
