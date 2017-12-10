@@ -29,7 +29,7 @@ this.ticker.addEventListener('tick', () => {
 }
 ```
 
--My tick function will then apply my game logic and constantly render all my essential objects.
+-My tick function will then apply my game logic and constantly render all my essential objects, such as enemy ships, enemy bullets, healthbars, and scores.
 ```javascript
 tick() {
   this.ship.shipEvents();
