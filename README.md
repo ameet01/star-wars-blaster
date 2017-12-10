@@ -13,6 +13,40 @@ Star Wars Shooter mixes the physics and visuals of space invaders with the well-
 
 ## Features:
 
+### Rendering
+
+-I use CreateJS to render my game. I do so by calling a new 'stage', which has access to the createjs library using our html canvas.
+```javascript
+this.stage = new createjs.Stage(this.canvas);
+```
+
+-I then add an eventListener to the stage called 'tick', which will essentially run 60 times per second.
+```javascript
+this.ticker.framerate = 60;
+this.ticker.addEventListener('tick', () => {
+  tick();
+}
+```
+
+-My tick function will then apply my game logic and constantly render all my essential objects.
+```javascript
+tick() {
+  this.ship.shipEvents();
+  this.moveAllBullets();
+  this.displayScores();
+  this.movePowerUps();
+  this.fireEnemyBullets();
+  this.moveAllEnemyBullets();
+  this.moveAllEnemies();
+  this.updateHealthBar();
+  if(this.boss) {
+    this.updateBossHealthBar();
+  }
+  this.stage.update();
+}
+```
+
+
 ### Light Saber Health Bar
 
 Lightsaber element built with CSS is correlated with the ship's health and lowers when the ship is hit!
