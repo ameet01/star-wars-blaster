@@ -6,7 +6,8 @@ Star Wars Shooter mixes the physics and visuals of space invaders with the well-
 
 ## Technologies:
 
-* ES6 Javascript, CreateJS, EaselJS, TweenJS for logic & game structure
+* ES6 Javascript, 
+* CreateJS, EaselJS, TweenJS for canvas rendering and enemy movement.
 * HTML5 Canvas for DOM Manipulation and rendering.
 * Webpack
 
