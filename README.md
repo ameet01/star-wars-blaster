@@ -20,8 +20,9 @@ Star Wars Shooter mixes the physics and visuals of space invaders with the well-
 this.stage = new createjs.Stage(this.canvas);
 ```
 
--I then add an eventListener to the stage called 'tick', which will essentially run 60 times per second.
+-I then add an eventListener to a ticker, which is the renderer that gets called 60 times a second. The event listener is used to apply my game's core functions/logic.
 ```javascript
+this.ticker = createjs.Ticker;
 this.ticker.framerate = 60;
 this.ticker.addEventListener('tick', () => {
   tick();
