@@ -213,10 +213,12 @@ body {
 
 .xwing-select {
   width: 50%;
+  cursor: pointer;
 }
 
 .falcon-select {
   width: 50%;
+  cursor: pointer;
 }
 
 
