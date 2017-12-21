@@ -4,6 +4,8 @@
 
 Star Wars Shooter mixes the physics and visuals of space invaders with the well-known audio/visuals from the Star Wars universe. The goal of the project is to provide a smooth and immersive star wars experience over the browser using just javascript and canvas.
 
+<img src='https://github.com/ameet01/star-wars-shooter/blob/master/docs/starwars.gif’ />
+
 ## Technologies:
 
 * ES6 Javascript
