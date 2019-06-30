@@ -1,6 +1,6 @@
 <img src='https://github.com/ameet01/star-wars-shooter/blob/master/images/maintitle.png' width='600px' />
 
-### Check out the live [Application](http://www.starwarsblaster.tech/)!
+### Check out the live [Application](https://ameet01.github.io/star-wars-blaster/)!
 
 Star Wars Shooter mixes the physics and visuals of space invaders with the well-known audio/visuals from the Star Wars universe. The goal of the project is to provide a smooth and immersive star wars experience over the browser using just javascript and canvas.
 
